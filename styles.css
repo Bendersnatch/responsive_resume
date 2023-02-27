@@ -103,10 +103,42 @@ body {
 
 .contactInfo ul li span {
     color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo.education li {
+    margin-bottom: 15px;
+}
+
+.contactInfo.education h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.contactInfo.education h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+}
+
+.contactInfo.education h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo.language.percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(24, 19, 53);
+    display: block;
+    margin-top: 5px;
 }
 
 
-.container .right_side {
+
+
+
+.container.right_side {
     position: relative;
     background: #fff;
     padding: 40px;
