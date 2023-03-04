@@ -17,7 +17,7 @@ body {
     position: relative;
     width: 100%;
     max-width: 1000px;
-    max-height: 1000px;
+    min-height: 1000px;
     background: #fff;
     margin: 50px;
     display: grid;
@@ -185,13 +185,13 @@ p {
 
 .about .box .year_company h5 {
     text-transform: uppercase;
-    color: #848c90;
+    color: #161718;
     font-weight: 600;
 }
 
 .about .box .text h4 {
      text-transform: uppercase;
-     color: #2a7da2;
+     color: #003147;
      font-size: 16px;
 }
 
@@ -205,17 +205,17 @@ p {
 }
 
 .skills .box h4 {
-    margin-left: 10px;
     text-transform: uppercase;
-    color: #848c99;
+    color: #003147;
     font-weight: 500;
 }
 
-.skills .box h4 .percent {
+.skills .box .percent {
     position: relative;
-    width: 100%;
+    margin-right: 5px;
+    width: 95%;
     height: 10px;
-    background: #757577;
+    background: rgb(78, 202, 105);
 }
 
 .skills .box .percent div {
@@ -223,7 +223,11 @@ p {
     top: 0;
     left: 0;
     height: 100%;
-    background: #003147;
+    background: #fc7302;
+}
+
+.interest h2 {
+    margin-left: 10px;
 }
 
 .interest ul {
